@@ -1,31 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
-const myElement = (
-  <table className='myTable'>
-    <tr>
-      <th>Name</th>
-    </tr>
-    <tr>
-      <td>Mangal</td>
-    </tr>
-    <tr>
-      <td>Dipa</td>
-    </tr>
-  </table>
-  )
-
-  const x = 7;
-  // let text = "";
-  // if(x < 6){
-  //   text = "You are not eleigle"
-  // } else if(x > 6){
-  //   text = "You are eleigle";
-  // } else {
-  //   text = "You are greate";
-  // }
-
-  let myText = <h2>{x > 6 ? "You are eleigle" : "You are not eleigle"}</h2>;
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myText);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
