@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Car';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+        <Car color="White" />
+      </header>        
     </div>
   );
 }
