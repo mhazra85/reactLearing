@@ -11,4 +11,8 @@ git remote add origin <ssh url.git>
 git push origin master
 git branch (to check current branch)
 git branch login-system (Added new branch)
+git checkout master (to switch the branch)
+git merge login-system (to merge with master branch)
+git push -u origin master (to push into github)
+
 
