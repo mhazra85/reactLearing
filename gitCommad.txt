@@ -14,5 +14,5 @@ git branch login-system (Added new branch)
 git checkout master (to switch the branch)
 git merge login-system (to merge with master branch)
 git push -u origin master (to push into github)
-
-
+git branch -d login-system (to delete brnach from local system)
+git push origin --delete login-system (to delete brnach from github)
